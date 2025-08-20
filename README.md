@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🔐 User and Admin Authentication System 
 
-## Getting Started
+Signup with Name, Email, Password
 
-First, run the development server:
+Login with Email & Password
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Login with Google & GitHub
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+👤 User Session Management
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+JWT-based sessions
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Role-based access (USER, ADMIN)
 
-## Learn More
+🛠️ Admin Dashboard
 
-To learn more about Next.js, take a look at the following resources:
+View all registered users
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Delete users from database
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🗄️ Database Integration
 
-## Deploy on Vercel
+MySQL with Prisma ORM
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Secure password hashing with bcrypt
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+⚡ Built with Next.js 15 App Router
+
+🛠️ Tech Stack
+
+Next.js 15 (TypeScript, App Router)
+
+MySQL (via Prisma ORM)
+
+NextAuth.js (Credentials, Google, GitHub providers)
+
+TailwindCSS (UI styling)
